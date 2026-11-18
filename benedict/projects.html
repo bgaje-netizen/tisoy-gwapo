@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="See Benedict Anthony Gaje's visual-design practice projects and growing interest in game development." />
+    <meta name="theme-color" content="#0b0d0e" />
+    <title>Projects | Benedict Anthony Gaje</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="exploration-progress" role="progressbar" aria-label="Page reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-valuetext="0% read">
+      <span class="exploration-progress-fill"></span>
+    </div>
+    <header class="site-header">
+      <nav class="navigation page-width" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Benedict Anthony Gaje, home">
+          <span class="brand-mark">B.</span><span>Benedict Anthony Gaje</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open navigation menu">
+          <span></span><span></span>
+        </button>
+        <ul class="navigation-links" id="primary-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a class="is-active" href="projects.html" aria-current="page">Projects</a></li>
+          <li><a class="nav-contact" href="contact.html">Contact <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page-view">
+      <section class="section projects-section page-section">
+        <div class="page-width">
+          <div class="projects-heading">
+            <div>
+              <p class="eyebrow eyebrow-dark">03 / Selected work</p>
+              <h2>Visual experiments. Game ideas ahead.</h2>
+            </div>
+            <p>These class projects are web-design exercises where I practice visual style and layout while learning animation and game design.</p>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card project-netflix">
+              <div class="project-art art-netflix" aria-hidden="true">
+                <span class="art-label">STREAM / 01</span>
+                <span class="netflix-wordmark">N</span>
+                <span class="art-caption">A streaming-inspired<br />web design exercise</span>
+              </div>
+              <div class="project-info">
+                <div>
+                  <p class="project-type">CLASS PROJECT</p>
+                  <h3>Netflix Mock Site</h3>
+                </div>
+                <button class="project-expand" type="button" aria-expanded="false" aria-controls="netflix-details">
+                  <span class="project-expand-label">Details</span>
+                  <span class="project-arrow" aria-hidden="true">+</span>
+                </button>
+              </div>
+              <p class="project-description">
+                A streaming-inspired visual design exercise and an early step
+                in learning how to shape engaging interactive experiences.
+              </p>
+              <div class="project-details" id="netflix-details" hidden>
+                <p class="project-type">PROJECT NOTES</p>
+                <p>
+                  This exercise helped me practice visual hierarchy, color,
+                  and interface layout—skills I hope to use in future games.
+                </p>
+              </div>
+              <div class="skill-tags"><span>HTML</span><span>CSS</span></div>
+            </article>
+            <article class="project-card project-spotify">
+              <div class="project-art art-spotify" aria-hidden="true">
+                <span class="art-label">LISTEN / 02</span>
+                <span class="spotify-mark">◉</span>
+                <span class="art-caption">A music-inspired<br />web design exercise</span>
+              </div>
+              <div class="project-info">
+                <div>
+                  <p class="project-type">CLASS PROJECT</p>
+                  <h3>Spotify Mock Site</h3>
+                </div>
+                <button class="project-expand" type="button" aria-expanded="false" aria-controls="spotify-details">
+                  <span class="project-expand-label">Details</span>
+                  <span class="project-arrow" aria-hidden="true">+</span>
+                </button>
+              </div>
+              <p class="project-description">
+                A music-inspired design exercise focused on mood, layout, and
+                visual style—ideas that also matter in game design.
+              </p>
+              <div class="project-details" id="spotify-details" hidden>
+                <p class="project-type">PROJECT NOTES</p>
+                <p>
+                  This exercise helped me explore how layout and visual style
+                  can create a distinct atmosphere for an interactive experience.
+                </p>
+              </div>
+              <div class="skill-tags"><span>HTML</span><span>CSS</span></div>
+            </article>
+          </div>
+          <a class="text-link projects-next" href="contact.html">Continue to contact <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="page-width footer-content">
+        <a class="brand footer-brand" href="index.html"><span class="brand-mark">B.</span> Benedict Anthony Gaje</a>
+        <p>Designed while learning animation and game development.</p>
+        <p class="copyright">© <span id="current-year"></span> Benedict Anthony Gaje</p>
+      </div>
+    </footer>
+  </body>
+</html>

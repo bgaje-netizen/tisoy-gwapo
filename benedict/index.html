@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The portfolio of Benedict Anthony Gaje, an IT student learning animation, game design, and game development."
+    />
+    <meta name="theme-color" content="#0b0d0e" />
+    <title>Benedict Anthony Gaje | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div
+      class="exploration-progress"
+      role="progressbar"
+      aria-label="Portfolio exploration progress"
+      aria-valuemin="0"
+      aria-valuemax="100"
+      aria-valuenow="0"
+      aria-valuetext="0% explored"
+    >
+      <span class="exploration-progress-fill"></span>
+    </div>
+    <header class="site-header">
+      <nav class="navigation page-width" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Benedict Anthony Gaje, home">
+          <span class="brand-mark">B.</span>
+          <span>Benedict Anthony Gaje</span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+          aria-label="Open navigation menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="navigation-links" id="primary-menu">
+          <li><a class="is-active" href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a class="nav-contact" href="contact.html">Contact <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-view">
+      <section class="hero page-width" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> IT student &amp; aspiring game developer</p>
+          <h1>Hi, I’m Benedict.<br />I’m learning to <span>make games.</span></h1>
+          <p class="hero-description">
+            I’m exploring animation, game design, and coding as I work toward
+            becoming a game developer.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="projects.html">Explore my projects <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="about.html">My game-dev goals <span aria-hidden="true">↗</span></a>
+          </div>
+          <nav class="journey-map" aria-label="Explore the portfolio">
+            <p class="journey-label">YOUR EXPLORATION ROUTE</p>
+            <ol>
+              <li><a class="is-active" href="index.html" aria-current="page"><span>01</span>Home</a></li>
+              <li><a href="about.html"><span>02</span>About</a></li>
+              <li><a href="skills.html"><span>03</span>Skills</a></li>
+              <li><a href="projects.html"><span>04</span>Projects</a></li>
+              <li><a href="contact.html"><span>05</span>Contact</a></li>
+            </ol>
+          </nav>
+          <div class="hero-note">
+            <span class="note-line"></span>
+            <p>Learning animation. Exploring game design. Creating as I learn.</p>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Portrait of Benedict Anthony Gaje">
+          <div class="portrait-frame">
+            <img
+              src="benedict-anthony-gaje.png"
+              alt="Benedict Anthony Gaje"
+            />
+          </div>
+          <div class="visual-caption">
+            <span class="caption-star" aria-hidden="true">✳</span>
+            <span>Animate. Design. Create.</span>
+          </div>
+          <span class="visual-orbit orbit-one" aria-hidden="true"></span>
+          <span class="visual-orbit orbit-two" aria-hidden="true"></span>
+        </div>
+        <a class="scroll-cue" href="about.html"><span></span> Start exploring</a>
+      </section>
+
+      <section class="section route-section">
+        <div class="page-width">
+          <div class="section-intro">
+            <p class="eyebrow">CHOOSE A CHECKPOINT</p>
+            <h2>Explore what I’m learning.</h2>
+            <p>See how I’m building skills in animation, game design, and game development.</p>
+          </div>
+          <div class="route-grid">
+            <a class="route-card" href="about.html">
+              <span class="route-code">01 / PROFILE</span>
+              <h3>About</h3>
+              <p>Why I’m working toward becoming a game developer.</p>
+              <span class="route-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="route-card" href="skills.html">
+              <span class="route-code">02 / LOADOUT</span>
+              <h3>Skills</h3>
+              <p>The coding, animation, and design skills I’m developing.</p>
+              <span class="route-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="route-card" href="projects.html">
+              <span class="route-code">03 / FIELD LOG</span>
+              <h3>Projects</h3>
+              <p>Early visual design exercises and the ideas behind them.</p>
+              <span class="route-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="route-card" href="contact.html">
+              <span class="route-code">04 / CONTACT</span>
+              <h3>Get in touch</h3>
+              <p>Connect with me about animation, game design, and game ideas.</p>
+              <span class="route-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-width footer-content">
+        <a class="brand footer-brand" href="index.html"><span class="brand-mark">B.</span> Benedict Anthony Gaje</a>
+        <p>Designed while learning animation and game development.</p>
+        <p class="copyright">© <span id="current-year"></span> Benedict Anthony Gaje</p>
+      </div>
+    </footer>
+  </body>
+</html>
